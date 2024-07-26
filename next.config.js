@@ -1,6 +1,6 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
+  assetPrefix: 'https://cdn.churnaxe.com'
 }
 
 module.exports = nextConfig
